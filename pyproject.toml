@@ -4,8 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gurk_template_plugin"
-version = "1.0.0"
+version = "1.0.2"
 description = "A template gurk plugin demonstrating the desired structure structure."
+readme = "README.md"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: POSIX :: Linux", "Environment :: Console", "Topic :: System :: Installation/Setup", "Intended Audience :: End Users/Desktop",]
+[[project.authors]]
+name = "Arturo J. Roberti"
+email = "arturo.roberti@outlook.com"
+
+[project.license]
+file = "LICENSE"
 
 [tool.setuptools.package-data]
 gurk_template_plugin = ["gurk-manifest.yaml", "pyproject.toml", "config/*", "scripts/*"]
