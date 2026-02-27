@@ -3,11 +3,11 @@ imports: [gurk]
 
 # (Optional) Define new tasks here, with at least mandatory fields ('description', 'script' and 'function')
 tasks:
-  template/some-task:
+  gurk-template-plugin/some-task:
     description: "A sample task"
     script: scripts/some_script.bash
     function: some_function
-  template/another-task:
+  gurk-template-plugin/another-task:
     description: "Another sample task"
     script: scripts/another_script.py
     function: null
@@ -21,7 +21,7 @@ tasks:
 # - Dependencies of enabled tasks will also be enabled.
 options:
   some-option: &some_option
-    template/some-task: {}
+    gurk-template-plugin/some-task: {}
   another-option:
-    template/another-task: {}
+    gurk-template-plugin/another-task: {}
   default: *some_option

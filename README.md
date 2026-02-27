@@ -3,7 +3,7 @@
 [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/gurk_template_plugin/)
 [![Parent](https://img.shields.io/badge/Parent-gurk-brown?logo=github)](https://github.com/ArturoRoberti/gurk)
 
-# gurk_template_plugin
+# gurk-template-plugin
 Example plugin for the [gurk package manager](https://github.com/ArturoRoberti/gurk). Used for the `gurk template` command and CI testing.
 
 # License
