@@ -14,14 +14,4 @@ tasks:
     depends_on: [gurk/install-apt-packages]
     config_file: config/another_task_config.txt
 
-# Define how to run this plugin
-# - This can either use existing tasks (in other plugins) or use your defined tasks.
-# - The 'default' option will be used when running `gurk run <plugin>` without specifying an option.
-# - Other options can be used by running `gurk run <plugin>:<option-name>`
-# - Dependencies of enabled tasks will also be enabled.
-options:
-  some-option: &some_option
-    gurk-template-plugin/some-task: {}
-  another-option:
-    gurk-template-plugin/another-task: {}
-  default: *some_option
+# PYTEST: Invalid, as 'options' section is missing
