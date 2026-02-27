@@ -1,0 +1,12 @@
+# Cache
+**/__pycache__/
+**/*.egg-info/
+**/.pytest_cache/
+**/build/
+**/dist/
+
+# Virtual Environment
+.venv/
+
+# VSCode
+.vscode/

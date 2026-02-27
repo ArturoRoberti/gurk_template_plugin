@@ -1,0 +1,11 @@
+[build-system]
+requires = [ "setuptools>=66.1.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gurk_template_plugin"
+version = "1.0.0"
+description = "A template gurk plugin demonstrating the desired structure structure."
+
+[tool.setuptools.package-data]
+gurk_template_plugin = ["gurk-manifest.yaml", "pyproject.toml", "config/*", "scripts/*"]
